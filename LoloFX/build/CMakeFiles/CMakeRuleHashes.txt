@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+7bcba96bb04197e36962d11f333ee942 LoloFX_artefacts/JuceLibraryCode/JuceHeader.h
+50ca920ff4f7824feb635f7578324b86 LoloFX_artefacts/JuceLibraryCode/LoloFX_AU/PkgInfo
+1f6a8cc03a3893ac1d3068734556ac5c LoloFX_artefacts/JuceLibraryCode/LoloFX_Standalone/PkgInfo
+6ae60635bd5ca9ca38dfc192a3a1587d LoloFX_artefacts/JuceLibraryCode/LoloFX_VST3/PkgInfo
