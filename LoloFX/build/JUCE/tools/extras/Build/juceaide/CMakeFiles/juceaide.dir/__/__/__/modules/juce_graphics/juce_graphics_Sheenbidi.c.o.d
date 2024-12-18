@@ -1,17 +1,17 @@
 extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SheenBidi.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBConfig.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SheenBidi.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBAlgorithm.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SheenBidi.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBConfig.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SheenBidi.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBAlgorithm.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBBase.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
@@ -41,22 +41,22 @@ extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBBidiType.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBCodepointSequence.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBCodepoint.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBGeneralCategory.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBScript.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBParagraph.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBLine.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBRun.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBMirrorLocator.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBScriptLocator.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiChain.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBBase.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiChain.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiTypeLookup.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiTypeLookup.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BracketQueue.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBBidiType.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBCodepointSequence.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBCodepoint.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBGeneralCategory.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBScript.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBParagraph.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBLine.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBRun.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBMirrorLocator.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Headers/SBScriptLocator.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiChain.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiChain.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiTypeLookup.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BidiTypeLookup.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BracketQueue.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/wait.h \
@@ -91,40 +91,40 @@ extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/malloc/_malloc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBAssert.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBAssert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BracketQueue.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/GeneralCategoryLookup.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/GeneralCategoryLookup.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/IsolatingRun.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BracketType.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/LevelRun.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunExtrema.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunKind.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/PairingLookup.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLog.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/IsolatingRun.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBCodepointSequence.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/LevelRun.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/PairingLookup.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunQueue.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunQueue.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBAlgorithm.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBParagraph.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBAlgorithm.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBBase.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptLookup.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBCodepointSequence.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLine.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLine.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLog.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBMirrorLocator.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBMirrorLocator.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBParagraph.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/StatusStack.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBScriptLocator.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptStack.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBScriptLocator.h \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptLookup.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptStack.c \
-  /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/StatusStack.c
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BracketQueue.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/GeneralCategoryLookup.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/GeneralCategoryLookup.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/IsolatingRun.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/BracketType.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/LevelRun.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunExtrema.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunKind.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/PairingLookup.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLog.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/IsolatingRun.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBCodepointSequence.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/LevelRun.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/PairingLookup.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunQueue.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/RunQueue.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBAlgorithm.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBParagraph.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBAlgorithm.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBBase.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptLookup.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBCodepointSequence.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLine.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLine.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBLog.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBMirrorLocator.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBMirrorLocator.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBParagraph.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/StatusStack.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBScriptLocator.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptStack.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/SBScriptLocator.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptLookup.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/ScriptStack.c \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/unicode/sheenbidi/Source/StatusStack.c

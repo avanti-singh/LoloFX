@@ -1,4 +1,4 @@
-# Install script for directory: /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/juceaide
+# Install script for directory: /Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/juceaide
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/juce_vst3_helper.dir/depend.make
@@ -69,31 +69,31 @@ include CMakeFiles/juce_vst3_helper.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/juce_vst3_helper.dir/flags.make
 
-CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: CMakeFiles/juce_vst3_helper.dir/flags.make
-CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
-CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: CMakeFiles/juce_vst3_helper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -MF CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d -o CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -c /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
+CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: CMakeFiles/juce_vst3_helper.dir/flags.make
+CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
+CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: CMakeFiles/juce_vst3_helper.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -MF CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d -o CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
 
-CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm > CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
+CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm > CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
 
-CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm -o CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
+CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm -o CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
 
 # Object files for target juce_vst3_helper
 juce_vst3_helper_OBJECTS = \
-"CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
+"CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
 
 # External object files for target juce_vst3_helper
 juce_vst3_helper_EXTERNAL_OBJECTS =
 
-juce_vst3_helper: CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+juce_vst3_helper: CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
 juce_vst3_helper: CMakeFiles/juce_vst3_helper.dir/build.make
 juce_vst3_helper: CMakeFiles/juce_vst3_helper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable juce_vst3_helper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable juce_vst3_helper"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/juce_vst3_helper.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +105,6 @@ CMakeFiles/juce_vst3_helper.dir/clean:
 .PHONY : CMakeFiles/juce_vst3_helper.dir/clean
 
 CMakeFiles/juce_vst3_helper.dir/depend:
-	cd /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles/juce_vst3_helper.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/apple/Desktop/Fall24/LoloFx/LoloFX /Users/apple/Desktop/Fall24/LoloFx/LoloFX /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles/juce_vst3_helper.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/juce_vst3_helper.dir/depend
 

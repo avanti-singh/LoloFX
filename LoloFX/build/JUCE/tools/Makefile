@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFX/JUCE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/CMakeFiles /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -158,7 +158,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -199,7 +199,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

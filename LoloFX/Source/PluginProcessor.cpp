@@ -26,6 +26,11 @@ PluginProcessor::PluginProcessor()
                      std::make_unique<juce::AudioParameterFloat>("cutoffFrequency", "Cutoff Frequency",
                          juce::NormalisableRange<float>(20.0f, 20000.0f, 1.0f, 0.5f), 1000.0f),
 
+                    // Sample parameters
+                    std::make_unique<juce::AudioParameterBool>("playState", "Play State", false),
+                    std::make_unique<juce::AudioParameterFloat>("volume", "Volume", 0.0f, 1.0f, 0.5f),
+                    std::make_unique<juce::AudioParameterChoice>("sound", "Sound", juce::StringArray{"Rain", "White Noise", "Crackle"}, 0),
+
                     // I/O GAIN - CHANGE THE RANGE
                     std::make_unique<juce::AudioParameterFloat>("inputGain", "Input Gain", -24.0f, 24.0f, 0.0f),
                     std::make_unique<juce::AudioParameterFloat>("outputGain", "Output Gain", -24.0f, 24.0f, 0.0f),
@@ -95,6 +100,7 @@ double PluginProcessor::getTailLengthSeconds() const
 
 void PluginProcessor::prepareToPlay(double sampleRate, int samplesPerBlock)
 {
+    loadSamples(); 
     filters.clear();
 
     for (int i = 0; i < getTotalNumInputChannels(); ++i)
@@ -115,6 +121,24 @@ void PluginProcessor::releaseResources()
 {
 
 }
+
+void PluginProcessor::loadSamples()
+{
+    // Load Rain Sample
+    if (auto* reader = formatManager.createReaderFor(juce::File(sourcepathRain)))
+    {
+        rainbuff = std::make_unique<juce::AudioBuffer<float>>(reader->numChannels, (int)reader->lengthInSamples);
+        reader->read(rainbuff.get(), 0, (int)reader->lengthInSamples, 0, true, true);
+    }
+
+    // Load Vinyl Sample
+    if (auto* reader = formatManager.createReaderFor(juce::File(sourcepathVinyl)))
+    {
+        vinylbuff = std::make_unique<juce::AudioBuffer<float>>(reader->numChannels, (int)reader->lengthInSamples);
+        reader->read(vinylbuff.get(), 0, (int)reader->lengthInSamples, 0, true, true);
+    }
+}
+
 
 // Define the sign function
 template <typename T>
@@ -199,6 +223,40 @@ void PluginProcessor::processFilter(juce::AudioBuffer<float>& buffer)
     }
 }
 
+void PluginProcessor::processSamples(juce::AudioBuffer<float>& buffer)
+{
+    auto playState = parameters.getRawParameterValue("playState")->load();
+    auto volume = parameters.getRawParameterValue("volume")->load();
+    auto soundSelection = parameters.getRawParameterValue("sound")->load();
+
+    if (!playState || volume <= 0.0f) // Check if playback is off
+        return;
+
+    // Select the correct buffer
+    auto* selectedBuffer = (soundSelection == 0) ? rainbuff.get()
+                         : (soundSelection == 1) ? vinylbuff.get()
+                         : nullptr;
+
+    if (selectedBuffer == nullptr)
+        return;
+
+    int totalSamples = buffer.getNumSamples();
+
+    for (int channel = 0; channel < buffer.getNumChannels(); ++channel)
+    {
+        auto* output = buffer.getWritePointer(channel);
+        auto* input = selectedBuffer->getReadPointer(channel % selectedBuffer->getNumChannels());
+
+        for (int sample = 0; sample < totalSamples; ++sample)
+        {
+            // Wrap playback position
+            output[sample] += input[playbackPosition % selectedBuffer->getNumSamples()] * volume;
+            ++playbackPosition;
+        }
+    }
+}
+
+
 
 void PluginProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
@@ -211,7 +269,8 @@ void PluginProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiB
     buffer.applyGain(inputGain);
 
     processSaturation(buffer); 
-    processFilter(buffer);     
+    processFilter(buffer);   
+    processSamples(buffer);  
 
     float outputGain = juce::Decibels::decibelsToGain(parameters.getRawParameterValue("outputGain")->load());
     buffer.applyGain(outputGain); 

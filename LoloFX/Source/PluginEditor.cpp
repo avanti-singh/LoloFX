@@ -17,6 +17,9 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     softclipButton.setLookAndFeel(customLookAndFeel.get());
     tapesaturationButton.setLookAndFeel(customLookAndFeel.get());
     waveshapeButton.setLookAndFeel(customLookAndFeel.get());
+    rainButton.setLookAndFeel(customLookAndFeel.get());
+    vinylButton.setLookAndFeel(customLookAndFeel.get());
+    volumeslider.setLookAndFeel(customLookAndFeel.get());
 
     // Plugin name label
     addAndMakeVisible(pluginname);
@@ -53,6 +56,15 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     cutofflabel.setText("Cutoff Frequency", juce::dontSendNotification);
     cutofflabel.setJustificationType(juce::Justification::centred);
 
+    addAndMakeVisible(samplelabel);
+    samplelabel.setText("Sample", juce::dontSendNotification);
+    samplelabel.setFont(juce::Font("Helvetica", 20.0f, juce::Font::bold));
+    samplelabel.setJustificationType(juce::Justification::centred);
+
+    addAndMakeVisible(volumelabel);
+    volumelabel.setText("Sample", juce::dontSendNotification);
+    volumelabel.setJustificationType(juce::Justification::centred);
+
     // Input gain slider
     addAndMakeVisible(inputGainSlider);
     inputGainSlider.setSliderStyle(juce::Slider::LinearBarVertical);
@@ -88,6 +100,24 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     setupButton(tapesaturationButton, "Tape Saturation", 1);
     setupButton(waveshapeButton, "Wave Shape", 2);
 
+    auto setupButton2 = [this](juce::TextButton& button, const juce::String& text, int mode)
+    {
+        addAndMakeVisible(button);
+        button.setButtonText(text);
+        button.setClickingTogglesState(false); // Ensures toggle state is handled manually
+        button.setColour(juce::TextButton::buttonColourId, juce::Colours::darkgrey);
+        button.setColour(juce::TextButton::buttonOnColourId, juce::Colours::blue);
+        button.onClick = [this, &button, mode]
+        {
+            processor.parameters.getParameterAsValue("sound").setValue(mode);
+
+            // Set toggle state based on clicked button
+            softclipButton.setToggleState(&button == &softclipButton, juce::dontSendNotification);
+            tapesaturationButton.setToggleState(&button == &tapesaturationButton, juce::dontSendNotification);
+            waveshapeButton.setToggleState(&button == &waveshapeButton, juce::dontSendNotification);
+        };
+    };
+
     // Saturator sliders
     addAndMakeVisible(thresholdSlider);
     thresholdSlider.setSliderStyle(juce::Slider::Rotary);
@@ -118,6 +148,24 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     cutoffSlider.setTextValueSuffix(" Hz");
     cutoffAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
         processor.parameters, "cutoffFrequency", cutoffSlider);
+
+    addAndMakeVisible(sampleonButton);
+    sampleonButton.setClickingTogglesState(true);
+    sampleonButton.setButtonText("Play Sample");
+    sampleonButton.setColour(juce::TextButton::buttonOnColourId, juce::Colours::green);
+    sampleonAttachment = std::make_unique<juce::AudioProcessorValueTreeState::ButtonAttachment>(
+        processor.parameters, "playState", sampleonButton);
+
+    rainButton.setButtonText("Rain");
+    vinylButton.setButtonText("Vinyl");
+
+    //Sample Volume Slider
+    addAndMakeVisible(volumeslider);
+    volumeslider.setSliderStyle(juce::Slider::Rotary);
+    volumeslider.setTextBoxStyle(juce::Slider::TextBoxBelow, false, 100, 20);
+    volumeslider.setTextValueSuffix(" dB");
+    volumeAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
+        processor.parameters, "volume", volumeslider);
 
     setSize(700, 500);
 }
@@ -158,14 +206,14 @@ void PluginEditor::resized()
     outputGainSlider.setBounds(centerArea.removeFromRight(50).reduced(10));
 
     // Saturator area
-    auto saturatorArea = centerArea.removeFromTop(200);
+    auto saturatorArea = centerArea.removeFromTop(180);
     saturatorlabel.setBounds(saturatorArea.removeFromTop(5).withSizeKeepingCentre(200, 20));
 
     // Saturator mode buttons
-    auto buttonArea = saturatorArea.removeFromTop(40);
-    softclipButton.setBounds(buttonArea.removeFromLeft(buttonArea.getWidth() / 3).reduced(10));
-    tapesaturationButton.setBounds(buttonArea.removeFromLeft(buttonArea.getWidth() / 2).reduced(10));
-    waveshapeButton.setBounds(buttonArea.reduced(10));
+    auto saturatorButtonArea = saturatorArea.removeFromTop(40);
+    softclipButton.setBounds(saturatorButtonArea.removeFromLeft(saturatorButtonArea.getWidth() / 3).reduced(10));
+    tapesaturationButton.setBounds(saturatorButtonArea.removeFromLeft(saturatorButtonArea.getWidth() / 2).reduced(10));
+    waveshapeButton.setBounds(saturatorButtonArea.reduced(10));
 
     // Horizontal layout for saturator sliders
     auto sliderArea = saturatorArea.reduced(10);
@@ -180,12 +228,29 @@ void PluginEditor::resized()
     drivelabel.setBounds(driveSlider.getX(), driveSlider.getBottom() + 5, driveSlider.getWidth(), 20);
     wetdrylabel.setBounds(wetDrySlider.getX(), wetDrySlider.getBottom() + 5, wetDrySlider.getWidth(), 20);
 
-    // Filter area
-    cutoffSlider.setBounds(centerArea.withSizeKeepingCentre(150, 150));
-    lpflabel.setBounds(cutoffSlider.getX(), cutoffSlider.getY() - 15, cutoffSlider.getWidth(), 20);
-    cutofflabel.setBounds(cutoffSlider.getX(), cutoffSlider.getBottom() + 5, cutoffSlider.getWidth(), 20);
-}
+    // Bottom Section (Raised Higher)
+    auto bottomArea = bounds.removeFromBottom(210); // Allocating height for the bottom area
 
+    // === Bottom Left: Low-Pass Filter ===
+    auto filterArea = bottomArea.removeFromLeft(bottomArea.getWidth() / 2).reduced(10);
+    lpflabel.setBounds(filterArea.removeFromTop(30).withSizeKeepingCentre(150, 20));
+    cutoffSlider.setBounds(filterArea.removeFromTop(150).withSizeKeepingCentre(150, 150)); // Larger size and higher
+    cutofflabel.setBounds(cutoffSlider.getX(), cutoffSlider.getBottom() + 5, cutoffSlider.getWidth(), 20);
+
+    // === Bottom Right: Sample Playback ===
+    auto sampleArea = bottomArea.reduced(10);
+    samplelabel.setBounds(sampleArea.removeFromTop(30).withSizeKeepingCentre(150, 20));
+
+    // Buttons for sample playback
+    auto sampleButtonArea = sampleArea.removeFromTop(90).withSizeKeepingCentre(150, 90);
+    sampleonButton.setBounds(sampleButtonArea.removeFromTop(30).withSizeKeepingCentre(120, 25));
+    rainButton.setBounds(sampleButtonArea.removeFromTop(30).removeFromLeft(60));
+    vinylButton.setBounds(sampleButtonArea.removeFromTop(30).removeFromRight(60));
+
+    // Volume Slider Area
+    volumeslider.setBounds(sampleArea.withSizeKeepingCentre(150, 150)); // Larger size and higher
+    volumelabel.setBounds(volumeslider.getX(), volumeslider.getBottom() + 5, volumeslider.getWidth(), 20);
+}
 
 
 void PluginEditor::buttonClicked(juce::Button* button)

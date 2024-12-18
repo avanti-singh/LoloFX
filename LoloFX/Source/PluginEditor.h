@@ -126,6 +126,12 @@ private:
     std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> tapesaturationAttachment;
     std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> waveshapeAttachment;
 
+    std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> sampleonAttachment;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> rainAttachment;
+    std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> vinylAttachment;
+
+    std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> volumeAttachment;
+
     // Saturator UI Components
     juce::Label saturatorlabel;
 
@@ -147,6 +153,16 @@ private:
 
     juce::Label cutofflabel;
     juce::Slider cutoffSlider;
+
+    //Sample UI Components
+    TextButton sampleonButton;
+    juce::Label samplelabel;
+
+    TextButton rainButton;
+    TextButton vinylButton;
+
+    juce::Label volumelabel;
+    juce::Slider volumeslider;
 
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> cutoffAttachment;
 

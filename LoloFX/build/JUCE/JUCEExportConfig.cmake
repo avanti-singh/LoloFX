@@ -55,11 +55,11 @@ endif()
 
 check_required_components("JUCE")
 
-set(JUCE_MODULES_DIR "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules" CACHE INTERNAL
+set(JUCE_MODULES_DIR "/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules" CACHE INTERNAL
     "The path to JUCE modules")
 
-include("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake")
-include("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JUCEUtils.cmake")
+include("/Users/apple/Desktop/Fall24/LoloFx/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake")
+include("/Users/apple/Desktop/Fall24/LoloFx/JUCE/extras/Build/CMake/JUCEUtils.cmake")
 
 set(_juce_modules
     juce_analytics
@@ -112,7 +112,7 @@ unset(_targets_defined)
 unset(_targets_expected)
 
 foreach(_juce_module IN LISTS _juce_modules)
-    juce_add_module("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/modules/${_juce_module}" ALIAS_NAMESPACE juce)
+    juce_add_module("/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/${_juce_module}" ALIAS_NAMESPACE juce)
 endforeach()
 
 unset(_juce_modules)

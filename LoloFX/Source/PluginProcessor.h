@@ -65,6 +65,20 @@ private:
     juce::dsp::IIR::Filter<float> stage1; 
     juce::dsp::IIR::Filter<float> stage2; 
 
+    // Sample playback
+    //I/O file paths
+    juce::String sourcepathRain = ("/Users/apple/Desktop/Fall24/LoloFX/Samples/Rain1.wav");
+    juce::String sourcepathVinyl = ("/Users/apple/Desktop/Fall24/LoloFX/Samples/Vinyl1.wav");
+
+     // Sample playback buffers
+    std::unique_ptr<juce::AudioBuffer<float>> rainbuff;
+    std::unique_ptr<juce::AudioBuffer<float>> vinylbuff;
+
+    // Playback parameters
+    int playbackPosition = 0; // Playback position (sample index)
+    
+    void loadSamples(); 
+
     // Helper methods
     void processSaturation(juce::AudioBuffer<float>& buffer);
     void processFilter(juce::AudioBuffer<float>& buffer);

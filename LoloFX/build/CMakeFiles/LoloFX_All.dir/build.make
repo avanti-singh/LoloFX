@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build
 
 # Utility rule file for LoloFX_All.
 
@@ -78,6 +78,6 @@ CMakeFiles/LoloFX_All.dir/clean:
 .PHONY : CMakeFiles/LoloFX_All.dir/clean
 
 CMakeFiles/LoloFX_All.dir/depend:
-	cd /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles/LoloFX_All.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/apple/Desktop/Fall24/LoloFx/LoloFX /Users/apple/Desktop/Fall24/LoloFx/LoloFX /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles/LoloFX_All.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/LoloFX_All.dir/depend
 

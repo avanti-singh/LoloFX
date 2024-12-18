@@ -52,7 +52,7 @@ add_executable(juce_tools::juceaide IMPORTED)
 # Import target "juce_tools::juceaide" for configuration "Debug"
 set_property(TARGET juce_tools::juceaide APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(juce_tools::juceaide PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide"
+  IMPORTED_LOCATION_DEBUG "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide"
   )
 
 # This file does not depend on other imported targets which have

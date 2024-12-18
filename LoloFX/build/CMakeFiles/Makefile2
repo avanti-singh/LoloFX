@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -155,14 +155,14 @@ JUCE/modules/clean:
 CMakeFiles/LoloFX.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target LoloFX"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target LoloFX"
 .PHONY : CMakeFiles/LoloFX.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LoloFX.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LoloFX.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
 .PHONY : CMakeFiles/LoloFX.dir/rule
 
 # Convenience name for target.
@@ -183,14 +183,14 @@ CMakeFiles/LoloFX_All.dir/all: CMakeFiles/LoloFX_AU.dir/all
 CMakeFiles/LoloFX_All.dir/all: CMakeFiles/LoloFX_VST3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_All.dir/build.make CMakeFiles/LoloFX_All.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_All.dir/build.make CMakeFiles/LoloFX_All.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num= "Built target LoloFX_All"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num= "Built target LoloFX_All"
 .PHONY : CMakeFiles/LoloFX_All.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LoloFX_All.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 62
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LoloFX_All.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
 .PHONY : CMakeFiles/LoloFX_All.dir/rule
 
 # Convenience name for target.
@@ -209,14 +209,14 @@ CMakeFiles/LoloFX_All.dir/clean:
 CMakeFiles/LoloFX_Standalone.dir/all: CMakeFiles/LoloFX.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target LoloFX_Standalone"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target LoloFX_Standalone"
 .PHONY : CMakeFiles/LoloFX_Standalone.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LoloFX_Standalone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LoloFX_Standalone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
 .PHONY : CMakeFiles/LoloFX_Standalone.dir/rule
 
 # Convenience name for target.
@@ -235,14 +235,14 @@ CMakeFiles/LoloFX_Standalone.dir/clean:
 CMakeFiles/LoloFX_AU.dir/all: CMakeFiles/LoloFX.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target LoloFX_AU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target LoloFX_AU"
 .PHONY : CMakeFiles/LoloFX_AU.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LoloFX_AU.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LoloFX_AU.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
 .PHONY : CMakeFiles/LoloFX_AU.dir/rule
 
 # Convenience name for target.
@@ -262,14 +262,14 @@ CMakeFiles/LoloFX_VST3.dir/all: CMakeFiles/LoloFX.dir/all
 CMakeFiles/LoloFX_VST3.dir/all: CMakeFiles/juce_vst3_helper.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target LoloFX_VST3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target LoloFX_VST3"
 .PHONY : CMakeFiles/LoloFX_VST3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LoloFX_VST3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LoloFX_VST3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
 .PHONY : CMakeFiles/LoloFX_VST3.dir/rule
 
 # Convenience name for target.
@@ -288,14 +288,14 @@ CMakeFiles/LoloFX_VST3.dir/clean:
 CMakeFiles/juce_vst3_helper.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles --progress-num=61,62 "Built target juce_vst3_helper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=61,62 "Built target juce_vst3_helper"
 .PHONY : CMakeFiles/juce_vst3_helper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/juce_vst3_helper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/juce_vst3_helper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
 .PHONY : CMakeFiles/juce_vst3_helper.dir/rule
 
 # Convenience name for target.
@@ -314,7 +314,7 @@ CMakeFiles/juce_vst3_helper.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

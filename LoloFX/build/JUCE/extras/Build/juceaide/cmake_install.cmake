@@ -1,4 +1,4 @@
-# Install script for directory: /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/juceaide
+# Install script for directory: /Users/apple/Desktop/Fall24/LoloFx/JUCE/extras/Build/juceaide
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/JUCE-8.0.4" TYPE PROGRAM FILES "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/JUCE-8.0.4" TYPE PROGRAM FILES "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide")
 endif()
 

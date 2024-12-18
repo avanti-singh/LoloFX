@@ -1,4 +1,4 @@
-# Install script for directory: /Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE
+# Install script for directory: /Users/apple/Desktop/Fall24/LoloFX/JUCE
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,34 +39,34 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/modules/cmake_install.cmake")
+  include("/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/extras/Build/cmake_install.cmake")
+  include("/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/extras/Build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/JUCE-8.0.4" TYPE FILE FILES
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/JUCEConfigVersion.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/JUCEConfig.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JUCEUtils.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/JuceLV2Defines.h.in"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/LaunchScreen.storyboard"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/PIPComponent.cpp.in"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/PIPConsole.cpp.in"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/checkBundleSigning.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/copyDir.cmake"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp"
-    "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/JUCE/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
+    "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/JUCEConfigVersion.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/JUCEConfig.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCEUtils.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JuceLV2Defines.h.in"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/LaunchScreen.storyboard"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/PIPComponent.cpp.in"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/PIPConsole.cpp.in"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/checkBundleSigning.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/copyDir.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp"
+    "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
     )
 endif()
 
@@ -85,6 +85,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/build/JUCE/tools/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
