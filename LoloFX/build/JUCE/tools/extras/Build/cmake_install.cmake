@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/extras/Build/juceaide/cmake_install.cmake")
+  include("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/extras/Build/juceaide/cmake_install.cmake")
 endif()
 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/apple/Desktop/Fall24/LoloFX/JUCE")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

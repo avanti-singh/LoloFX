@@ -1,16 +1,16 @@
-CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o: \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
+CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o: \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUUtility.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUUtility.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioBaseTypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h \
@@ -1013,22 +1013,22 @@ CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_aud
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnitImplementation.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioCodec.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIUtility.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIUtility.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/thread \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBufferAllocator.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUSilentTimeout.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBufferAllocator.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUSilentTimeout.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/CoreMIDI.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDISetup.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIThruConnection.h \
@@ -1038,12 +1038,12 @@ CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_aud
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIBluetoothConnection.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDINetworkSession.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDICapabilityInquiry.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.h
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.h

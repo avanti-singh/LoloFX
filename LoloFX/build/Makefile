@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFX/LoloFX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -158,7 +158,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -288,767 +288,767 @@ Source/PluginProcessor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.s
 .PHONY : Source/PluginProcessor.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/juce_vst3_helper.dir/build.make CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_Standalone.dir/build.make CMakeFiles/LoloFX_Standalone.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_AU.dir/build.make CMakeFiles/LoloFX_AU.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX_VST3.dir/build.make CMakeFiles/LoloFX_VST3.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.o: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.o: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.o
 
 # target to build an object file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.i: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.i: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.i
 
 # target to preprocess a source file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
 
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.s: Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.s: Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.s
 
 # target to generate assembly for a file
-Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
-.PHONY : Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LoloFX.dir/build.make CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+.PHONY : Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
 
 # Help Target
 help:
@@ -1074,93 +1074,93 @@ help:
 	@echo "... Source/PluginProcessor.o"
 	@echo "... Source/PluginProcessor.i"
 	@echo "... Source/PluginProcessor.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.s"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.o"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.i"
-	@echo "... Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.s"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.o"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.i"
+	@echo "... Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.s"
 .PHONY : help
 
 
@@ -1172,7 +1172,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

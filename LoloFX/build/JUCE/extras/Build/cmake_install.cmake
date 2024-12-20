@@ -1,4 +1,4 @@
-# Install script for directory: /Users/apple/Desktop/Fall24/LoloFx/JUCE/extras/Build
+# Install script for directory: /Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/extras/Build/juceaide/cmake_install.cmake")
+  include("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/extras/Build/juceaide/cmake_install.cmake")
 endif()
 

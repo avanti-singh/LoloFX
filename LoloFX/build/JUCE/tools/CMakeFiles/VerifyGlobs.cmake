@@ -29,7 +29,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -47,7 +47,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -73,7 +73,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -189,7 +189,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -382,7 +382,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -558,7 +558,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -823,7 +823,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1246,7 +1246,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1293,7 +1293,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1398,7 +1398,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1702,7 +1702,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1726,7 +1726,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1756,7 +1756,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1847,7 +1847,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -1911,7 +1911,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -2529,7 +2529,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -2919,7 +2919,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3002,7 +3002,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3033,7 +3033,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3087,7 +3087,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3135,7 +3135,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3162,7 +3162,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3186,7 +3186,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:222 (file)
@@ -3216,5 +3216,5 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()

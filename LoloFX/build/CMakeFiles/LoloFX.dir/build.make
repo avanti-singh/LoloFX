@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Fall24/LoloFX/LoloFX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LoloFX.dir/depend.make
@@ -70,322 +70,322 @@ include CMakeFiles/LoloFX.dir/progress.make
 include CMakeFiles/LoloFX.dir/flags.make
 
 LoloFX_artefacts/JuceLibraryCode/JuceHeader.h: LoloFX_artefacts/JuceLibraryCode/Defs.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating LoloFX_artefacts/JuceLibraryCode/JuceHeader.h"
-	JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide header /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/LoloFX_artefacts/JuceLibraryCode//Defs.txt /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/LoloFX_artefacts/JuceLibraryCode/JuceHeader.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating LoloFX_artefacts/JuceLibraryCode/JuceHeader.h"
+	JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide header /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/LoloFX_artefacts/JuceLibraryCode//Defs.txt /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/LoloFX_artefacts/JuceLibraryCode/JuceHeader.h
 
 CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o: /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginProcessor.cpp
+CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o: /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginProcessor.cpp
 CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o -MF CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o.d -o CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o -c /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o -MF CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o.d -o CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o -c /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginProcessor.cpp
 
 CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginProcessor.cpp > CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginProcessor.cpp > CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.i
 
 CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginProcessor.cpp -o CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginProcessor.cpp -o CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.s
 
 CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o: /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginEditor.cpp
+CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o: /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginEditor.cpp
 CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o -MF CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o.d -o CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o -c /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o -MF CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o.d -o CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o -c /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginEditor.cpp
 
 CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginEditor.cpp > CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginEditor.cpp > CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.i
 
 CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/LoloFX/Source/PluginEditor.cpp -o CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/LoloFX/Source/PluginEditor.cpp -o CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o: CMakeFiles/LoloFX.dir/flags.make
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o: /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o -c /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o: CMakeFiles/LoloFX.dir/flags.make
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o: /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o: CMakeFiles/LoloFX.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o -MF CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o.d -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o -c /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.i
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm > CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.i
 
-CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.s
+CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm -o CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.s
 
 # Object files for target LoloFX
 LoloFX_OBJECTS = \
 "CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o" \
 "CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o" \
-"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o"
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o" \
+"CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o"
 
 # External object files for target LoloFX
 LoloFX_EXTERNAL_OBJECTS =
 
 LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Source/PluginProcessor.cpp.o
 LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Source/PluginEditor.cpp.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_graphics/juce_graphics.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_events/juce_events.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/juce_core.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
-LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_dsp/juce_dsp.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_graphics/juce_graphics.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_events/juce_events.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/juce_core.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_dsp/juce_dsp.mm.o
 LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/build.make
 LoloFX_artefacts/libLoloFX_SharedCode.a: CMakeFiles/LoloFX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library LoloFX_artefacts/libLoloFX_SharedCode.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library LoloFX_artefacts/libLoloFX_SharedCode.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/LoloFX.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LoloFX.dir/link.txt --verbose=$(VERBOSE)
 
@@ -398,6 +398,6 @@ CMakeFiles/LoloFX.dir/clean:
 .PHONY : CMakeFiles/LoloFX.dir/clean
 
 CMakeFiles/LoloFX.dir/depend: LoloFX_artefacts/JuceLibraryCode/JuceHeader.h
-	cd /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/apple/Desktop/Fall24/LoloFx/LoloFX /Users/apple/Desktop/Fall24/LoloFx/LoloFX /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build /Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/CMakeFiles/LoloFX.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/apple/Desktop/Fall24/LoloFX/LoloFX /Users/apple/Desktop/Fall24/LoloFX/LoloFX /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build /Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/CMakeFiles/LoloFX.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/LoloFX.dir/depend
 

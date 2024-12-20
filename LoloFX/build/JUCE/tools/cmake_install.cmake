@@ -39,18 +39,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/modules/cmake_install.cmake")
+  include("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/extras/Build/cmake_install.cmake")
+  include("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/extras/Build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/JUCE-8.0.4" TYPE FILE FILES
-    "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/JUCEConfigVersion.cmake"
-    "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/JUCEConfig.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/JUCEConfigVersion.cmake"
+    "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/JUCEConfig.cmake"
     "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake"
     "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake"
     "/Users/apple/Desktop/Fall24/LoloFX/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake"
@@ -85,6 +85,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/apple/Desktop/Fall24/LoloFx/LoloFX/build/JUCE/tools/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

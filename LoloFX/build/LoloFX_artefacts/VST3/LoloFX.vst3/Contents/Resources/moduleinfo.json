@@ -13,7 +13,7 @@
   },
   "Classes": [
     {
-      "CID": "5653544B6771776C6F6C6F6678000000",
+      "CID": "56535448656F656C6F6C6F6678000000",
       "Category": "Audio Module Class",
       "Name": "LoloFX",
       "Vendor": "EP-353",
@@ -28,7 +28,7 @@
       ],
     },
     {
-      "CID": "5653454B6771776C6F6C6F6678000000",
+      "CID": "56534548656F656C6F6C6F6678000000",
       "Category": "Component Controller Class",
       "Name": "LoloFX",
       "Vendor": "EP-353",
@@ -43,7 +43,7 @@
       ],
     },
     {
-      "CID": "ABCDEF01C0DEF00D4D616E754B677177",
+      "CID": "ABCDEF01C0DEF00D4D616E7548656F65",
       "Category": "Plugin Compatibility Class",
       "Name": "LoloFX",
       "Vendor": "EP-353",

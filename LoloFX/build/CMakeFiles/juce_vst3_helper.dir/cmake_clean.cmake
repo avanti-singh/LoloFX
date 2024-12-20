@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
-  "CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d"
+  "CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
+  "CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d"
   "juce_vst3_helper"
   "juce_vst3_helper.pdb"
 )

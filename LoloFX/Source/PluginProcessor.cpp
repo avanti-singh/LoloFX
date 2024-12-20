@@ -28,7 +28,7 @@ PluginProcessor::PluginProcessor()
 
                     // Sample parameters
                     std::make_unique<juce::AudioParameterBool>("playState", "Play State", false),
-                    std::make_unique<juce::AudioParameterFloat>("volume", "Volume", 0.0f, 1.0f, 0.5f),
+                    std::make_unique<juce::AudioParameterFloat>("volume", "Volume", -60.0f, 0.0f, 1.0f),
                     std::make_unique<juce::AudioParameterChoice>("sound", "Sound", juce::StringArray{"Rain", "White Noise", "Crackle"}, 0),
 
                     // I/O GAIN - CHANGE THE RANGE

@@ -1,15 +1,15 @@
-CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
+CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_TargetPlatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/TargetConditionals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/AvailabilityInternal.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fplatform.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_core/system/juce_CompilerSupport.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fplatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -18,10 +18,10 @@ CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/j
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__nullptr \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/module_mac.mm \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/uid.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/optional.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/module_mac.mm \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/uid.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/optional.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sys/cdefs.h \
@@ -245,9 +245,9 @@ CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/j
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/sched.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/funknown.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/ftypes.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/smartpointer.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/funknown.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/ftypes.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/smartpointer.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bits \
@@ -372,8 +372,8 @@ CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/j
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/ipluginbase.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fstrdefs.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/ipluginbase.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/fstrdefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
@@ -1528,18 +1528,18 @@ CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/j
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSPersistentCloudKitContainerEvent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSPersistentCloudKitContainerEventRequest.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSCoreDataCoreSpotlightDelegate.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/coreiids.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/ibstream.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/icloneable.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/iupdatehandler.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/funknown.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/coreiids.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/ibstream.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/icloneable.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/iupdatehandler.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/funknown.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdatomic.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/samples/vst-utilities/moduleinfotool/source/main.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/iplugincompatibility.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/memorystream.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/readfile.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfo.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/samples/vst-utilities/moduleinfotool/source/main.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/iplugincompatibility.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/memorystream.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/readfile.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfo.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
@@ -1567,10 +1567,10 @@ CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/j
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/optional \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/vsttypes.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/base/source/fcommandline.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/vsttypes.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/base/source/fcommandline.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h \
@@ -1581,53 +1581,53 @@ CMakeFiles/juce_vst3_helper.dir/Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/j
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/codecvt \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/memorystream.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/futils.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/readfile.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/utility/optional.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/funknownimpl.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/jsoncxx.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/json.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/memorystream.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/futils.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/common/readfile.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/utility/optional.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/funknownimpl.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/jsoncxx.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/json.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/charconv \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstaudioprocessor.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstcomponent.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/falignpush.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/falignpop.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/vstspeaker.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstautomationstate.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstchannelcontextinfo.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstattributes.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstcontextmenu.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstdataexchange.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivsteditcontroller.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstevents.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstprocesscontext.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstnoteexpression.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivsthostapplication.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstmessage.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstinterappaudio.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstmidilearn.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterchanges.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterfunctionname.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstphysicalui.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstpluginterfacesupport.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstplugview.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstprefetchablesupport.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstremapparamid.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstrepresentation.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivsttestplugprovider.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/istringresult.h \
-  /Users/apple/Desktop/Fall24/LoloFx/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstunits.h
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstcomponent.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/falignpush.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/falignpop.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/vstspeaker.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstautomationstate.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstchannelcontextinfo.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstattributes.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstcontextmenu.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstdataexchange.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivsteditcontroller.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstevents.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstprocesscontext.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstnoteexpression.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivsthostapplication.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstmessage.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstinterappaudio.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstmidilearn.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterchanges.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterfunctionname.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstphysicalui.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstpluginterfacesupport.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstplugview.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstprefetchablesupport.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstremapparamid.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstrepresentation.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivsttestplugprovider.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/base/istringresult.h \
+  /Users/apple/Desktop/Fall24/LoloFX/JUCE/modules/juce_audio_processors/format_types/VST3_SDK/pluginterfaces/vst/ivstunits.h

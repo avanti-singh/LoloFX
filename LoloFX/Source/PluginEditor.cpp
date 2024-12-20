@@ -100,23 +100,34 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     setupButton(tapesaturationButton, "Tape Saturation", 1);
     setupButton(waveshapeButton, "Wave Shape", 2);
 
-    auto setupButton2 = [this](juce::TextButton& button, const juce::String& text, int mode)
-    {
-        addAndMakeVisible(button);
-        button.setButtonText(text);
-        button.setClickingTogglesState(false); // Ensures toggle state is handled manually
-        button.setColour(juce::TextButton::buttonColourId, juce::Colours::darkgrey);
-        button.setColour(juce::TextButton::buttonOnColourId, juce::Colours::blue);
-        button.onClick = [this, &button, mode]
-        {
-            processor.parameters.getParameterAsValue("sound").setValue(mode);
+    // Sample Playback Buttons
+    addAndMakeVisible(sampleonButton);
+    sampleonButton.setButtonText("Play Sample");
+    sampleonButton.setClickingTogglesState(true);
+    sampleonButton.setColour(juce::TextButton::buttonOnColourId, juce::Colours::green);
+    sampleonAttachment = std::make_unique<juce::AudioProcessorValueTreeState::ButtonAttachment>(
+    processor.parameters, "playState", sampleonButton);
 
-            // Set toggle state based on clicked button
-            softclipButton.setToggleState(&button == &softclipButton, juce::dontSendNotification);
-            tapesaturationButton.setToggleState(&button == &tapesaturationButton, juce::dontSendNotification);
-            waveshapeButton.setToggleState(&button == &waveshapeButton, juce::dontSendNotification);
-        };
+    addAndMakeVisible(rainButton);
+    rainButton.setButtonText("Rain");
+    rainButton.setClickingTogglesState(true);
+
+    addAndMakeVisible(vinylButton);
+    vinylButton.setClickingTogglesState(true);
+    vinylButton.setButtonText("Vinyl");
+
+    rainButton.onClick = [this]()
+    {
+        processor.parameters.getParameterAsValue("sound").setValue(0); // 0 corresponds to Rain
     };
+
+    vinylButton.onClick = [this]()
+    {
+        processor.parameters.getParameterAsValue("sound").setValue(1); // 1 corresponds to Vinyl
+    };
+
+    setupButton(rainButton, "Rain", 0);
+    setupButton(vinylButton, "Vinyl", 1);
 
     // Saturator sliders
     addAndMakeVisible(thresholdSlider);
@@ -149,16 +160,6 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     cutoffAttachment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(
         processor.parameters, "cutoffFrequency", cutoffSlider);
 
-    addAndMakeVisible(sampleonButton);
-    sampleonButton.setClickingTogglesState(true);
-    sampleonButton.setButtonText("Play Sample");
-    sampleonButton.setColour(juce::TextButton::buttonOnColourId, juce::Colours::green);
-    sampleonAttachment = std::make_unique<juce::AudioProcessorValueTreeState::ButtonAttachment>(
-        processor.parameters, "playState", sampleonButton);
-
-    rainButton.setButtonText("Rain");
-    vinylButton.setButtonText("Vinyl");
-
     //Sample Volume Slider
     addAndMakeVisible(volumeslider);
     volumeslider.setSliderStyle(juce::Slider::Rotary);
@@ -170,16 +171,24 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     setSize(700, 500);
 }
 
-
 PluginEditor::~PluginEditor()
 {
+    // Remove Listeners for Buttons
+    rainButton.removeListener(this);
+    vinylButton.removeListener(this);
+
+    // Clear Custom LookAndFeel Assignments
     thresholdSlider.setLookAndFeel(nullptr);
     driveSlider.setLookAndFeel(nullptr);
     cutoffSlider.setLookAndFeel(nullptr);
+    wetDrySlider.setLookAndFeel(nullptr);
+    volumeslider.setLookAndFeel(nullptr);
 
     softclipButton.setLookAndFeel(nullptr);
     tapesaturationButton.setLookAndFeel(nullptr);
     waveshapeButton.setLookAndFeel(nullptr);
+    rainButton.setLookAndFeel(nullptr);
+    vinylButton.setLookAndFeel(nullptr);
 }
 
 void PluginEditor::paint(juce::Graphics& g)
@@ -228,28 +237,29 @@ void PluginEditor::resized()
     drivelabel.setBounds(driveSlider.getX(), driveSlider.getBottom() + 5, driveSlider.getWidth(), 20);
     wetdrylabel.setBounds(wetDrySlider.getX(), wetDrySlider.getBottom() + 5, wetDrySlider.getWidth(), 20);
 
-    // Bottom Section (Raised Higher)
-    auto bottomArea = bounds.removeFromBottom(210); // Allocating height for the bottom area
+    // Bottom Section
+    auto bottomArea = bounds.removeFromBottom(220);
 
     // === Bottom Left: Low-Pass Filter ===
     auto filterArea = bottomArea.removeFromLeft(bottomArea.getWidth() / 2).reduced(10);
     lpflabel.setBounds(filterArea.removeFromTop(30).withSizeKeepingCentre(150, 20));
-    cutoffSlider.setBounds(filterArea.removeFromTop(150).withSizeKeepingCentre(150, 150)); // Larger size and higher
+    cutoffSlider.setBounds(filterArea.withSizeKeepingCentre(150, 150).translated(0, -10)); // Slightly higher
     cutofflabel.setBounds(cutoffSlider.getX(), cutoffSlider.getBottom() + 5, cutoffSlider.getWidth(), 20);
 
     // === Bottom Right: Sample Playback ===
     auto sampleArea = bottomArea.reduced(10);
     samplelabel.setBounds(sampleArea.removeFromTop(30).withSizeKeepingCentre(150, 20));
-
-    // Buttons for sample playback
-    auto sampleButtonArea = sampleArea.removeFromTop(90).withSizeKeepingCentre(150, 90);
-    sampleonButton.setBounds(sampleButtonArea.removeFromTop(30).withSizeKeepingCentre(120, 25));
-    rainButton.setBounds(sampleButtonArea.removeFromTop(30).removeFromLeft(60));
-    vinylButton.setBounds(sampleButtonArea.removeFromTop(30).removeFromRight(60));
-
-    // Volume Slider Area
-    volumeslider.setBounds(sampleArea.withSizeKeepingCentre(150, 150)); // Larger size and higher
+    volumeslider.setBounds(sampleArea.withSizeKeepingCentre(150, 150).translated(0, -10)); // Slightly higher
     volumelabel.setBounds(volumeslider.getX(), volumeslider.getBottom() + 5, volumeslider.getWidth(), 20);
+
+    // === Buttons Positioned in Between ===
+    auto buttonArea = bottomArea.reduced(10);
+    buttonArea.setWidth(200);
+    buttonArea.setCentre(filterArea.getRight() + (sampleArea.getX() - filterArea.getRight()) / 2, bottomArea.getCentreY()); // Ensure vertical alignment
+
+    sampleonButton.setBounds(buttonArea.removeFromTop(40).withSizeKeepingCentre(120, 25));
+    rainButton.setBounds(buttonArea.removeFromTop(50).withSizeKeepingCentre(120, 25)); 
+    vinylButton.setBounds(buttonArea.withSizeKeepingCentre(120, 25));
 }
 
 
@@ -275,6 +285,45 @@ void PluginEditor::buttonClicked(juce::Button* button)
         softclipButton.setToggleState(false, juce::dontSendNotification);
         tapesaturationButton.setToggleState(false, juce::dontSendNotification);
         waveshapeButton.setToggleState(true, juce::dontSendNotification);
+    }
+
+    if (button == &sampleonButton)
+    {
+        // Toggle playback state
+        bool isPlaying = processor.parameters.getParameterAsValue("playState").getValue();
+        processor.parameters.getParameterAsValue("playState").setValue(!isPlaying);
+
+        // Enable/Disable Rain and Vinyl buttons based on playback state
+        bool playbackEnabled = !isPlaying;
+        rainButton.setEnabled(playbackEnabled);
+        vinylButton.setEnabled(playbackEnabled);
+
+        // Reset Rain and Vinyl button states if playback is stopped
+        if (!playbackEnabled)
+        {
+            rainButton.setToggleState(false, juce::dontSendNotification);
+            vinylButton.setToggleState(false, juce::dontSendNotification);
+        }
+    }
+    // Handle Rain Button
+    else if (button == &rainButton)
+    {
+        if (processor.parameters.getParameterAsValue("playState").getValue()) // Only if playback is active
+        {
+            processor.parameters.getParameterAsValue("sound").setValue(0); // Rain
+            rainButton.setToggleState(true, juce::dontSendNotification);
+            vinylButton.setToggleState(false, juce::dontSendNotification);
+        }
+    }
+    // Handle Vinyl Button
+    else if (button == &vinylButton)
+    {
+        if (processor.parameters.getParameterAsValue("playState").getValue()) // Only if playback is active
+        {
+            processor.parameters.getParameterAsValue("sound").setValue(1); // Vinyl
+            rainButton.setToggleState(false, juce::dontSendNotification);
+            vinylButton.setToggleState(true, juce::dontSendNotification);
+        }
     }
 }
 
