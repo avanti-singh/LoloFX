@@ -107,6 +107,10 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     sampleonButton.setColour(juce::TextButton::buttonOnColourId, juce::Colours::green);
     sampleonAttachment = std::make_unique<juce::AudioProcessorValueTreeState::ButtonAttachment>(
     processor.parameters, "playState", sampleonButton);
+    
+    sampleonButton.addListener(this);
+    rainButton.addListener(this);
+    vinylButton.addListener(this);
 
     addAndMakeVisible(rainButton);
     rainButton.setButtonText("Rain");
@@ -116,18 +120,11 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     vinylButton.setClickingTogglesState(true);
     vinylButton.setButtonText("Vinyl");
 
-    rainButton.onClick = [this]()
-    {
-        processor.parameters.getParameterAsValue("sound").setValue(0); // 0 corresponds to Rain
-    };
-
-    vinylButton.onClick = [this]()
-    {
-        processor.parameters.getParameterAsValue("sound").setValue(1); // 1 corresponds to Vinyl
-    };
-
     setupButton(rainButton, "Rain", 0);
     setupButton(vinylButton, "Vinyl", 1);
+
+    rainButton.setEnabled(false);
+    vinylButton.setEnabled(false);
 
     // Saturator sliders
     addAndMakeVisible(thresholdSlider);
@@ -174,6 +171,7 @@ PluginEditor::PluginEditor(PluginProcessor& p)
 PluginEditor::~PluginEditor()
 {
     // Remove Listeners for Buttons
+    sampleonButton.removeListener(this);
     rainButton.removeListener(this);
     vinylButton.removeListener(this);
 
@@ -294,33 +292,32 @@ void PluginEditor::buttonClicked(juce::Button* button)
         processor.parameters.getParameterAsValue("playState").setValue(!isPlaying);
 
         // Enable/Disable Rain and Vinyl buttons based on playback state
-        bool playbackEnabled = !isPlaying;
-        rainButton.setEnabled(playbackEnabled);
-        vinylButton.setEnabled(playbackEnabled);
+        rainButton.setEnabled(!isPlaying);
+        vinylButton.setEnabled(!isPlaying);
 
-        // Reset Rain and Vinyl button states if playback is stopped
-        if (!playbackEnabled)
+        // Reset button states if playback is stopped
+        if (!isPlaying)
         {
             rainButton.setToggleState(false, juce::dontSendNotification);
             vinylButton.setToggleState(false, juce::dontSendNotification);
         }
     }
-    // Handle Rain Button
     else if (button == &rainButton)
     {
-        if (processor.parameters.getParameterAsValue("playState").getValue()) // Only if playback is active
+        // Only allow selection if playback is active
+        if (processor.parameters.getParameterAsValue("playState").getValue())
         {
-            processor.parameters.getParameterAsValue("sound").setValue(0); // Rain
+            processor.parameters.getParameterAsValue("sound").setValue(0); // Set sound to Rain
             rainButton.setToggleState(true, juce::dontSendNotification);
             vinylButton.setToggleState(false, juce::dontSendNotification);
         }
     }
-    // Handle Vinyl Button
     else if (button == &vinylButton)
     {
-        if (processor.parameters.getParameterAsValue("playState").getValue()) // Only if playback is active
+        // Only allow selection if playback is active
+        if (processor.parameters.getParameterAsValue("playState").getValue())
         {
-            processor.parameters.getParameterAsValue("sound").setValue(1); // Vinyl
+            processor.parameters.getParameterAsValue("sound").setValue(1); // Set sound to Vinyl
             rainButton.setToggleState(false, juce::dontSendNotification);
             vinylButton.setToggleState(true, juce::dontSendNotification);
         }

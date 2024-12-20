@@ -226,16 +226,20 @@ void PluginProcessor::processFilter(juce::AudioBuffer<float>& buffer)
 void PluginProcessor::processSamples(juce::AudioBuffer<float>& buffer)
 {
     auto playState = parameters.getRawParameterValue("playState")->load();
-    auto volume = parameters.getRawParameterValue("volume")->load();
+    auto volumeDb = parameters.getRawParameterValue("volume")->load();
     auto soundSelection = parameters.getRawParameterValue("sound")->load();
 
-    if (!playState || volume <= 0.0f) // Check if playback is off
+    // Convert volume from dB to linear gain
+    float volume = juce::Decibels::decibelsToGain(volumeDb);
+
+    // Check if playback is active and volume is valid
+    if (!playState || volume <= 0.0f)
         return;
 
     // Select the correct buffer
-    auto* selectedBuffer = (soundSelection == 0) ? rainbuff.get()
-                         : (soundSelection == 1) ? vinylbuff.get()
-                         : nullptr;
+    const auto* selectedBuffer = (soundSelection == 0) ? rainbuff.get()
+                           : (soundSelection == 1) ? vinylbuff.get()
+                           : nullptr;
 
     if (selectedBuffer == nullptr)
         return;
@@ -245,15 +249,19 @@ void PluginProcessor::processSamples(juce::AudioBuffer<float>& buffer)
     for (int channel = 0; channel < buffer.getNumChannels(); ++channel)
     {
         auto* output = buffer.getWritePointer(channel);
-        auto* input = selectedBuffer->getReadPointer(channel % selectedBuffer->getNumChannels());
+        const auto* input = selectedBuffer->getReadPointer(channel % selectedBuffer->getNumChannels());
 
         for (int sample = 0; sample < totalSamples; ++sample)
         {
-            // Wrap playback position
-            output[sample] += input[playbackPosition % selectedBuffer->getNumSamples()] * volume;
+            // Wrap playback position within bounds of the selected buffer
+            int playbackPos = playbackPosition % selectedBuffer->getNumSamples();
+            output[sample] += input[playbackPos] * volume;
             ++playbackPosition;
         }
     }
+
+    // Wrap playback position to avoid overflow
+    playbackPosition %= rainbuff->getNumSamples(); // Assuming rainbuff and vinylbuff are the same length
 }
 
 
