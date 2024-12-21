@@ -261,7 +261,7 @@ void PluginProcessor::processSamples(juce::AudioBuffer<float>& buffer)
     }
 
     // Wrap playback position to avoid overflow
-    playbackPosition %= rainbuff->getNumSamples(); // Assuming rainbuff and vinylbuff are the same length
+    playbackPosition %= rainbuff->getNumSamples(); 
 }
 
 

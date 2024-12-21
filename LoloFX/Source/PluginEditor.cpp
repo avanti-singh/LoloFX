@@ -241,19 +241,19 @@ void PluginEditor::resized()
     // === Bottom Left: Low-Pass Filter ===
     auto filterArea = bottomArea.removeFromLeft(bottomArea.getWidth() / 2).reduced(10);
     lpflabel.setBounds(filterArea.removeFromTop(30).withSizeKeepingCentre(150, 20));
-    cutoffSlider.setBounds(filterArea.withSizeKeepingCentre(150, 150).translated(0, -10)); // Slightly higher
+    cutoffSlider.setBounds(filterArea.withSizeKeepingCentre(150, 150).translated(0, -10)); 
     cutofflabel.setBounds(cutoffSlider.getX(), cutoffSlider.getBottom() + 5, cutoffSlider.getWidth(), 20);
 
     // === Bottom Right: Sample Playback ===
     auto sampleArea = bottomArea.reduced(10);
     samplelabel.setBounds(sampleArea.removeFromTop(30).withSizeKeepingCentre(150, 20));
-    volumeslider.setBounds(sampleArea.withSizeKeepingCentre(150, 150).translated(0, -10)); // Slightly higher
+    volumeslider.setBounds(sampleArea.withSizeKeepingCentre(150, 150).translated(0, -10)); 
     volumelabel.setBounds(volumeslider.getX(), volumeslider.getBottom() + 5, volumeslider.getWidth(), 20);
 
     // === Buttons Positioned in Between ===
     auto buttonArea = bottomArea.reduced(10);
     buttonArea.setWidth(200);
-    buttonArea.setCentre(filterArea.getRight() + (sampleArea.getX() - filterArea.getRight()) / 2, bottomArea.getCentreY()); // Ensure vertical alignment
+    buttonArea.setCentre(filterArea.getRight() + (sampleArea.getX() - filterArea.getRight()) / 2, bottomArea.getCentreY()); 
 
     sampleonButton.setBounds(buttonArea.removeFromTop(40).withSizeKeepingCentre(120, 25));
     rainButton.setBounds(buttonArea.removeFromTop(50).withSizeKeepingCentre(120, 25)); 
@@ -307,7 +307,7 @@ void PluginEditor::buttonClicked(juce::Button* button)
         // Only allow selection if playback is active
         if (processor.parameters.getParameterAsValue("playState").getValue())
         {
-            processor.parameters.getParameterAsValue("sound").setValue(0); // Set sound to Rain
+            processor.parameters.getParameterAsValue("sound").setValue(0); 
             rainButton.setToggleState(true, juce::dontSendNotification);
             vinylButton.setToggleState(false, juce::dontSendNotification);
         }
@@ -317,20 +317,10 @@ void PluginEditor::buttonClicked(juce::Button* button)
         // Only allow selection if playback is active
         if (processor.parameters.getParameterAsValue("playState").getValue())
         {
-            processor.parameters.getParameterAsValue("sound").setValue(1); // Set sound to Vinyl
+            processor.parameters.getParameterAsValue("sound").setValue(1); 
             rainButton.setToggleState(false, juce::dontSendNotification);
             vinylButton.setToggleState(true, juce::dontSendNotification);
         }
     }
 }
 
-
-  //SAMPLE PLAYBACK
-    /*
-
-    auto playbackButtonArea = centerArea.removeFromBottom(40);
-    playButton.setBounds(playbackButtonArea.removeFromLeft(playbackButtonArea.getWidth() / 2).reduced(5));
-    stopButton.setBounds(playbackButtonArea.reduced(5));
-
-    */
-    

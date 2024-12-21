@@ -75,7 +75,7 @@ private:
     std::unique_ptr<juce::AudioBuffer<float>> vinylbuff;
 
     // Playback parameters
-    int playbackPosition = 0; // Playback position (sample index)
+    int playbackPosition = 0; 
     
     void loadSamples(); 
 
