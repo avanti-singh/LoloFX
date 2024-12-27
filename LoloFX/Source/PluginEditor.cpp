@@ -8,8 +8,12 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     backgroundImage = juce::ImageCache::getFromFile(
         juce::File("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/Resources/Images/BG2.png"));
 
+    juce::File knobFile("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/Resources/Images/Knob1.png");
+    juce::Image knobImage = juce::ImageFileFormat::loadFrom(knobFile);
+
     // Set custom LookAndFeel
     customLookAndFeel = std::make_unique<CustomLookAndFeel>();
+    customLookAndFeel->setKnobImage(knobImage); 
     thresholdSlider.setLookAndFeel(customLookAndFeel.get());
     driveSlider.setLookAndFeel(customLookAndFeel.get());
     cutoffSlider.setLookAndFeel(customLookAndFeel.get());
@@ -84,7 +88,7 @@ PluginEditor::PluginEditor(PluginProcessor& p)
         button.setButtonText(text);
         button.setClickingTogglesState(false); // Ensures toggle state is handled manually
         button.setColour(juce::TextButton::buttonColourId, juce::Colours::darkgrey);
-        button.setColour(juce::TextButton::buttonOnColourId, juce::Colours::blue);
+        button.setColour(juce::TextButton::buttonOnColourId, juce::Colours::green);
         button.onClick = [this, &button, mode]
         {
             processor.parameters.getParameterAsValue("saturationMode").setValue(mode);

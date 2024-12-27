@@ -8,6 +8,12 @@ class PluginProcessor;
 class CustomLookAndFeel : public juce::LookAndFeel_V4
 {
 public:
+
+    void setKnobImage(const juce::Image& image)
+        {
+            knobImage = image;
+        }
+
      void drawLinearSlider(juce::Graphics& g, int x, int y, int width, int height,
                           float sliderPos, float minSliderPos, float maxSliderPos,
                           const juce::Slider::SliderStyle, juce::Slider& slider) override
@@ -30,30 +36,34 @@ public:
         auto radius = jmin(width / 2, height / 2) - 4.0f;
         auto centerX = x + width * 0.5f;
         auto centerY = y + height * 0.5f;
-        auto rx = centerX - radius;
-        auto ry = centerY - radius;
-        auto rw = radius * 2.0f;
+        
+        if (!knobImage.isNull())
+        {
+            g.drawImageWithin(knobImage, x, y, width, height, juce::RectanglePlacement::centred);
+        }
+        else
+        {
+            // Fallback if the image is missing
+            g.setColour(juce::Colours::grey);
+            g.fillEllipse(x, y, width, height);
+        }
+
         auto angle = rotaryStartAngle + sliderPosProportional * (rotaryEndAngle - rotaryStartAngle);
 
-        // Background circle
-        g.setColour(Colour(0xFF5D5BB7)); 
-        g.fillEllipse(rx, ry, rw, rw);
-
-        // Slider arc
-        g.setColour(Colour(0xFFFFECEF));
-        Path valueArc;
-        valueArc.addCentredArc(centerX, centerY, radius, radius, 0.0f,
-                               rotaryStartAngle, angle, true);
-        g.strokePath(valueArc, PathStrokeType(4.0f));
-
-        // Thumb
+        auto thumbRadius = radius * 0.50f;
+        auto thumbX = centerX + thumbRadius * std::cos(angle - MathConstants<float>::pi / 2.0f);
+        auto thumbY = centerY + thumbRadius * std::sin(angle - MathConstants<float>::pi / 2.0f);
         auto thumbWidth = 6.0f;
-        Point<float> thumbPoint(centerX + radius * std::cos(angle - MathConstants<float>::pi / 2.0f),
-                                 centerY + radius * std::sin(angle - MathConstants<float>::pi / 2.0f));
 
-        g.setColour(Colour(0xFF6641B2)); 
-        g.fillEllipse(thumbPoint.x - thumbWidth * 0.5f, thumbPoint.y - thumbWidth * 0.5f,
-                      thumbWidth, thumbWidth);
+        g.setColour(Colour(0xFF00FFFF));
+        g.fillEllipse(thumbX - thumbWidth * 0.5f, thumbY - thumbWidth * 0.5f,
+                  thumbWidth, thumbWidth);
+
+        float arcThickness = 3.0f; 
+        g.setColour(juce::Colours::cyan);
+        juce::Path arcPath;
+        arcPath.addCentredArc(centerX, centerY, radius + 2.0f, radius + 2.0f, 0.0f, rotaryStartAngle, angle, true);
+        g.strokePath(arcPath, PathStrokeType(arcThickness));    
     }
 
     void drawButtonBackground(juce::Graphics& g, juce::Button& button, const juce::Colour& backgroundColour,
@@ -90,6 +100,9 @@ public:
         g.drawFittedText(button.getButtonText(), bounds, Justification::centred, 1);
     }
 
+    private:
+    juce::File knobFile;
+    juce::Image knobImage;
 };
 
 class PluginEditor : public juce::AudioProcessorEditor, public juce::Button::Listener
@@ -106,6 +119,9 @@ private:
     PluginProcessor& processor;
 
     juce::Image backgroundImage;
+
+    juce::File knobFile;
+    juce::Image knobImage;
 
     std::unique_ptr<CustomLookAndFeel> customLookAndFeel = std::make_unique<CustomLookAndFeel>();
     
