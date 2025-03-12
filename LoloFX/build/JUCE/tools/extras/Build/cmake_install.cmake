@@ -42,3 +42,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/extras/Build/juceaide/cmake_install.cmake")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/extras/Build/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

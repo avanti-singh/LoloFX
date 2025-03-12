@@ -6,7 +6,7 @@ PluginEditor::PluginEditor(PluginProcessor& p)
 {
     // Load background image
     backgroundImage = juce::ImageCache::getFromFile(
-        juce::File("/Users/apple/Desktop/Fall24/EP353-ProblemSets/FinalProject/LoloFX/Resources/Images/BG2.png"));
+        juce::File("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/Resources/Images/BG2.png"));
 
     juce::File knobFile("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/Resources/Images/Knob1.png");
     juce::Image knobImage = juce::ImageFileFormat::loadFrom(knobFile);
@@ -179,6 +179,10 @@ PluginEditor::~PluginEditor()
     rainButton.removeListener(this);
     vinylButton.removeListener(this);
 
+    sampleonButton.onClick = nullptr;
+    rainButton.onClick = nullptr;
+    vinylButton.onClick = nullptr;
+
     // Clear Custom LookAndFeel Assignments
     thresholdSlider.setLookAndFeel(nullptr);
     driveSlider.setLookAndFeel(nullptr);
@@ -191,6 +195,15 @@ PluginEditor::~PluginEditor()
     waveshapeButton.setLookAndFeel(nullptr);
     rainButton.setLookAndFeel(nullptr);
     vinylButton.setLookAndFeel(nullptr);
+
+    inputGainAttachment.reset();
+    outputGainAttachment.reset();
+    sampleonAttachment.reset();
+    saturationTHAttachment.reset();
+    saturationDRAttachment.reset();
+    wetDryAttachment.reset();
+    cutoffAttachment.reset();
+    volumeAttachment.reset();
 }
 
 void PluginEditor::paint(juce::Graphics& g)

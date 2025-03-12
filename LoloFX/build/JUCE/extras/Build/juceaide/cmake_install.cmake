@@ -41,3 +41,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/JUCE-8.0.4" TYPE PROGRAM FILES "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide")
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/Users/apple/Desktop/Fall24/LoloFX/LoloFX/build/JUCE/extras/Build/juceaide/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

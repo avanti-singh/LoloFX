@@ -51,6 +51,8 @@ public:
     friend class PluginEditor;
 
 private:
+    bool isShuttingDown = false;
+    
     float inputGain = 0.0f;
     float outputGain = 0.0f; 
 

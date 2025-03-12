@@ -40,7 +40,11 @@ PluginProcessor::PluginProcessor()
     formatManager.registerBasicFormats(); 
 }
 
-PluginProcessor::~PluginProcessor() = default;
+PluginProcessor::~PluginProcessor()
+{
+    isShuttingDown = true;
+    releaseResources();
+}
 
 const juce::String PluginProcessor::getName() const
 {
@@ -116,10 +120,15 @@ void PluginProcessor::prepareToPlay(double sampleRate, int samplesPerBlock)
     }
 }
 
-
 void PluginProcessor::releaseResources()
 {
+    // Clear filters so they aren’t used by any residual audio callbacks
+    filters.clear(true);
 
+    // Reset sample buffers and playback position
+    playbackPosition = 0;
+    rainbuff.reset();
+    vinylbuff.reset();
 }
 
 void PluginProcessor::loadSamples()
@@ -166,6 +175,8 @@ void PluginProcessor::processSaturation(juce::AudioBuffer<float>& buffer)
             float inputSample = channelData[data];
             float x = channelData[data] * currentDrive;
             float processed = x;
+            float tapeDrive = 0.0f;
+            float shapingFactor = 0.0f;
 
             switch (currentSaturationMode)
             {
@@ -178,13 +189,15 @@ void PluginProcessor::processSaturation(juce::AudioBuffer<float>& buffer)
                     break;
 
                 case SaturationMode::tapeSaturation:
-                    processed = std::tanh(x * 0.6f);
-                    processed = 0.9f * processed + 0.1f * inputSample; 
+                    tapeDrive = currentDrive * 1.2f; 
+                    processed = std::tanh(x * tapeDrive);
+                    processed = 0.85f * processed + 0.15f * inputSample;
                     break;
 
                 case SaturationMode::waveShape:
-                    processed = std::atan(processed * 1.2f); 
-                    processed = 0.8f * processed + 0.2f * inputSample; 
+                    shapingFactor = 1.5f; 
+                    processed = std::atan(x * shapingFactor);
+                    processed = 0.75f * processed + 0.25f * inputSample;
                     break;
 
                 default:
@@ -202,7 +215,10 @@ void PluginProcessor::processFilter(juce::AudioBuffer<float>& buffer)
 {
     float currentCutoff = parameters.getRawParameterValue("cutoffFrequency")->load();
 
-    for (int channel = 0; channel < buffer.getNumChannels(); ++channel)
+    juce::ScopedNoDenormals noDenormals;
+
+    int numChannelsToProcess = std::min(buffer.getNumChannels(), filters.size());
+    for (int channel = 0; channel < numChannelsToProcess; ++channel)
     {
         auto* channelData = buffer.getWritePointer(channel);
 
@@ -261,13 +277,16 @@ void PluginProcessor::processSamples(juce::AudioBuffer<float>& buffer)
     }
 
     // Wrap playback position to avoid overflow
-    playbackPosition %= rainbuff->getNumSamples(); 
+    playbackPosition %= selectedBuffer->getNumSamples();
 }
 
 
 
 void PluginProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
+    if (isShuttingDown)
+        return;
+
     juce::ScopedNoDenormals noDenormals;
 
     currentSaturationMode = static_cast<SaturationMode>(
