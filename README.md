@@ -10,6 +10,9 @@ LoloFX is a lofi audio plugin including a customizable saturator with 3 modes (s
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
 
+## Introduction
+
+LoloFX delivers a signature lofi character by combining analog-like saturation, smooth filtering, and atmospheric sample playback. Whether you want to add subtle warmth or pronounced grit, LoloFX offers a flexible toolkit for creative sound design.
 
 ## Features
 
@@ -29,6 +32,13 @@ Low-Pass Filter:
 
 ### Low-Pass Filter
 3rd-order Butterworth design for smooth high-frequency attenuation.
+
+### Sample Playback
+- Sample Selection:
+Choose between atmospheric rain sounds and vinyl crackle to add an organic, vintage texture to your tracks.
+
+- Playback Control:
+Toggle sample playback on/off and adjust the sample volume to blend with your processed audio.
 
 ### Input/Output Gain:
 
@@ -106,8 +116,13 @@ Configure the project exporter for your target platform (e.g., Xcode, Visual Stu
 2. Filter Section:
 
         a. Cutoff Frequency: Adjusts the frequency at which the low-pass filter begins attenuating high frequencies.
+3. Sample Playback Section:
+
+        a. Sample Selection: Choose between Rain and Vinyl Crackle via dedicated buttons.
+        b. Playback Toggle: A sample playback button to trigger the selected sample.
+        c. Volume Control: Adjusts the playback volume of the selected sample.
         
-3. Input/Output Gain:
+4. Input/Output Gain:
 
         a. Input Gain: Controls the level of the audio signal entering the plugin.
         
