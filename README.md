@@ -1,6 +1,6 @@
 # LoloFX
 
-LoloFX is an audio plugin that provides a set of audio processing tools, including a customizable saturator with multiple modes, a low-pass filter, and input/output gain controls. This plugin is designed to be a versatile tool for audio production, offering a smooth workflow and impactful sound design options.
+LoloFX is a lofi audio plugin including a customizable saturator with 3 modes (soft clip, tape saturation and waveshape), a low-pass filter, a sample playback module (rain, vinyl crackle) and input/output gain controls.
 
 ## Table of Contents
 - [Introduction](#introduction)
