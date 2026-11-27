@@ -36,9 +36,19 @@ target_sources(${EXEC_NAME}
         Source/PluginEditor.h
 )
 
+# Embed images and samples so the plugin does not depend on files on disk
+juce_add_binary_data(LoloFXData
+    SOURCES
+        Resources/Images/BG2.png
+        Resources/Images/Knob1.png
+        ../Samples/Rain1.wav
+        ../Samples/Vinyl1.wav
+)
+
 # Link JUCE modules
 target_link_libraries(${EXEC_NAME}
     PRIVATE
+        LoloFXData
         juce::juce_core
         juce::juce_audio_basics
         juce::juce_audio_devices

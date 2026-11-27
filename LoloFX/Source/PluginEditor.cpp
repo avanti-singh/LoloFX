@@ -5,11 +5,9 @@ PluginEditor::PluginEditor(PluginProcessor& p)
     : AudioProcessorEditor(&p), processor(p)
 {
     // Load background image
-    backgroundImage = juce::ImageCache::getFromFile(
-        juce::File("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/Resources/Images/BG2.png"));
+    backgroundImage = juce::ImageCache::getFromMemory(BinaryData::BG2_png, BinaryData::BG2_pngSize);
 
-    juce::File knobFile("/Users/apple/Desktop/Fall24/LoloFX/LoloFX/Resources/Images/Knob1.png");
-    juce::Image knobImage = juce::ImageFileFormat::loadFrom(knobFile);
+    juce::Image knobImage = juce::ImageCache::getFromMemory(BinaryData::Knob1_png, BinaryData::Knob1_pngSize);
 
     // Set custom LookAndFeel
     customLookAndFeel = std::make_unique<CustomLookAndFeel>();
