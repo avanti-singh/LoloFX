@@ -2,6 +2,8 @@
 
 LoloFX is a lofi audio plugin including a customizable saturator with 3 modes (soft clip, tape saturation and waveshape), a low-pass filter, a sample playback module (rain, vinyl crackle) and input/output gain controls.
 
+<img src="docs/lolofx-ui.png" alt="The LoloFX interface: Soft Clip, Tape Saturation and Wave Shape modes with Threshold, Drive and Wet/Dry Mix knobs, a Low-Pass Filter cutoff knob, Rain and Vinyl sample buttons with a Sample level knob, and input and output meters" width="700">
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
