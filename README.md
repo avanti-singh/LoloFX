@@ -9,6 +9,7 @@ LoloFX is a lofi audio plugin including a customizable saturator with 3 modes (s
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [References](#references)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
 
@@ -147,6 +148,17 @@ Configure the project exporter for your target platform (e.g., Xcode, Visual Stu
 4. Adjust the Cutoff Frequency to filter out unwanted high frequencies.
 
 5. Set the Output Gain to ensure the final level is balanced.
+
+## References
+
+While working on LoloFX, I studied Professor Julius O. Smith's tutorials on digital filters
+and Jatin Chowdhury's paper on tape machine modelling, which deepened my understanding of
+the math and signal-processing logic behind the low-pass filter and tape saturation.
+
+- Julius O. Smith III, [*Introduction to Digital Filters with Audio Applications*](https://ccrma.stanford.edu/~jos/filters/),
+  Center for Computer Research in Music and Acoustics (CCRMA), Stanford University.
+- Jatin Chowdhury, [*Real-Time Physical Modelling for Analog Tape Machines*](https://dafx.de/paper-archive/details/Z5Ow_E5YHVxvndTAyeEuzA),
+  Proceedings of the 22nd International Conference on Digital Audio Effects (DAFx-19), 2019.
 
 ## Troubleshooting
 ### The Plugin Is Not Showing in My DAW:
