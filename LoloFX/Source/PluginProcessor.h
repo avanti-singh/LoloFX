@@ -68,9 +68,6 @@ private:
     juce::dsp::IIR::Filter<float> stage2; 
 
     // Sample playback
-    //I/O file paths
-    juce::String sourcepathRain = ("/Users/apple/Desktop/Fall24/LoloFX/Samples/Rain1.wav");
-    juce::String sourcepathVinyl = ("/Users/apple/Desktop/Fall24/LoloFX/Samples/Vinyl1.wav");
 
      // Sample playback buffers
     std::unique_ptr<juce::AudioBuffer<float>> rainbuff;

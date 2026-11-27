@@ -133,19 +133,20 @@ void PluginProcessor::releaseResources()
 
 void PluginProcessor::loadSamples()
 {
-    // Load Rain Sample
-    if (auto* reader = formatManager.createReaderFor(juce::File(sourcepathRain)))
+    auto load = [this](const void* data, int size) -> std::unique_ptr<juce::AudioBuffer<float>>
     {
-        rainbuff = std::make_unique<juce::AudioBuffer<float>>(reader->numChannels, (int)reader->lengthInSamples);
-        reader->read(rainbuff.get(), 0, (int)reader->lengthInSamples, 0, true, true);
-    }
+        std::unique_ptr<juce::AudioFormatReader> reader(formatManager.createReaderFor(
+            std::make_unique<juce::MemoryInputStream>(data, (size_t) size, false)));
+        if (reader == nullptr)
+            return nullptr;
+        auto buf = std::make_unique<juce::AudioBuffer<float>>((int) reader->numChannels, (int) reader->lengthInSamples);
+        reader->read(buf.get(), 0, (int) reader->lengthInSamples, 0, true, true);
+        return buf;
+    };
 
-    // Load Vinyl Sample
-    if (auto* reader = formatManager.createReaderFor(juce::File(sourcepathVinyl)))
-    {
-        vinylbuff = std::make_unique<juce::AudioBuffer<float>>(reader->numChannels, (int)reader->lengthInSamples);
-        reader->read(vinylbuff.get(), 0, (int)reader->lengthInSamples, 0, true, true);
-    }
+    // Samples are embedded in the plugin (see juce_add_binary_data in CMakeLists.txt)
+    rainbuff = load(BinaryData::Rain1_wav, BinaryData::Rain1_wavSize);
+    vinylbuff = load(BinaryData::Vinyl1_wav, BinaryData::Vinyl1_wavSize);
 }
 
 
