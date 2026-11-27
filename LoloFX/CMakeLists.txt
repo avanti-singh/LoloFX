@@ -19,6 +19,10 @@ juce_add_plugin(${EXEC_NAME}
     FORMATS AU VST3 Standalone
     COMPANY_NAME "EP-353"
     PLUGIN_NAME "LoloFX" # Updated plugin name
+    # Fixed IDs so hosts recognise saved sessions from earlier builds.
+    # JUCE picks a random code when these are unset.
+    PLUGIN_MANUFACTURER_CODE Manu
+    PLUGIN_CODE Rxdz
     IS_SYNTH FALSE
     NEEDS_MIDI_INPUT FALSE
     NEEDS_MIDI_OUTPUT FALSE
